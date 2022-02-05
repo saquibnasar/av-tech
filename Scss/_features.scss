@@ -197,6 +197,9 @@
       @include media3 {
         margin-bottom: 1rem;
       }
+      @include media5 {
+        margin-bottom: 2rem;
+      }
     }
     .group2 {
       @include feature {
@@ -209,6 +212,9 @@
       @include media3 {
         margin-bottom: 1rem;
       }
+      @include media5 {
+        margin-bottom: 2rem;
+      }
     }
     .group3 {
       width: 485px;
@@ -219,6 +225,9 @@
       }
       @include group3 {
         width: 443px;
+      }
+      @include media5 {
+        margin-bottom: 2rem;
       }
       @include feature {
         width: 400px;

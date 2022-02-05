@@ -71,6 +71,10 @@
         width: 350px;
         height: 450px;
       }
+      @include media5 {
+        width: 310px;
+        height: 437px;
+      }
       .business_card {
         margin-top: 47px;
         img {
@@ -98,6 +102,9 @@
           @include media4 {
             font-size: 18px;
             line-height: 31px;
+          }
+          @include media5 {
+            font-size: 16px;
           }
         }
         p {

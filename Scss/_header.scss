@@ -26,7 +26,11 @@
     }
     @include media4 {
       font-size: 36px;
-      line-height: 36px;
+      line-height: 40px;
+    }
+    @include media5 {
+      font-size: 33px;
+      line-height: 40px;
     }
   }
   .main_btn {
@@ -46,6 +50,9 @@
       margin: auto;
       padding: 18px 40px;
     }
+    @include media5 {
+      padding: 16px 36px;
+    }
 
     a {
       font-family: Roboto;
@@ -58,6 +65,9 @@
       font-family: "Roboto", serif;
       @include media3 {
         font-size: 26px;
+      }
+      @include media5 {
+        font-size: 23px;
       }
     }
   }
