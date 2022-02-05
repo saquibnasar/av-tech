@@ -39,6 +39,9 @@ header {
             color: $white !important;
             opacity: 100% !important;
           }
+          .dropdown-menu {
+            border-radius: 10px;
+          }
         }
       }
     }
