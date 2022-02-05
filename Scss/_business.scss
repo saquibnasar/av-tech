@@ -127,6 +127,10 @@
             font-size: 11px;
             line-height: 24px;
           }
+          @include media5 {
+            font-size: 10px;
+            line-height: 24px;
+          }
         }
         .fs {
           font-size: 16px;
