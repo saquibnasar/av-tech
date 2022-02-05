@@ -4,6 +4,26 @@
 
 .features {
   margin-top: 7rem;
+  margin-bottom: 13rem;
+  @include feature {
+    margin-bottom: 18rem;
+  }
+
+  @include media {
+    margin-bottom: 23rem;
+  }
+  @include media2 {
+    margin-bottom: 15rem;
+  }
+  @include feature_row {
+    margin-bottom: 50rem;
+  }
+  @include media4 {
+    margin-bottom: 47rem;
+  }
+  @include media5 {
+    margin-bottom: 52rem;
+  }
   .margin-1 {
     margin-top: -6rem;
     @include feature {
