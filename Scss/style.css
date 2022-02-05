@@ -76,7 +76,7 @@ body {
   }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 610px) {
   .header .title {
     font-size: 33px;
     line-height: 40px;
@@ -115,7 +115,7 @@ body {
   }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 610px) {
   .header .main_btn {
     padding: 16px 36px;
   }
@@ -138,7 +138,7 @@ body {
   }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 610px) {
   .header .main_btn a {
     font-size: 23px;
   }
@@ -287,7 +287,7 @@ body {
   }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 610px) {
   .para .para_title {
     font-size: 16px;
   }
@@ -323,7 +323,7 @@ body {
   }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 610px) {
   .para p {
     font-size: 10px;
   }
@@ -448,7 +448,7 @@ body {
   }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 610px) {
   .business .Tech .tech_card {
     width: 310px;
     height: 437px;
@@ -499,7 +499,7 @@ body {
   }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 610px) {
   .business .Tech .tech_card .business_card h3 {
     font-size: 16px;
   }
@@ -554,7 +554,7 @@ body {
   }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 610px) {
   .business .Tech .tech_card .business_card .fs {
     font-size: 10px;
   }
@@ -621,7 +621,7 @@ body {
   }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 610px) {
   .features {
     margin-bottom: 52rem;
   }
@@ -911,7 +911,7 @@ body {
   }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 610px) {
   .features .feature_row .group1 {
     margin-bottom: 2rem;
   }
@@ -936,7 +936,7 @@ body {
   }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 610px) {
   .features .feature_row .group2 {
     margin-bottom: 2rem;
   }
@@ -960,7 +960,7 @@ body {
   }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 610px) {
   .features .feature_row .group3 {
     margin-bottom: 2rem;
   }
