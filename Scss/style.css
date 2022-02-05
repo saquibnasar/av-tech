@@ -536,13 +536,6 @@ body {
   }
 }
 
-@media (max-width: 550px) {
-  .business .Tech .tech_card .business_card p {
-    font-size: 10px;
-    line-height: 24px;
-  }
-}
-
 .business .Tech .tech_card .business_card .fs {
   font-size: 16px;
 }
@@ -558,6 +551,12 @@ body {
   .business .Tech .tech_card .business_card .fs {
     font-size: 11px;
     line-height: 24px;
+  }
+}
+
+@media (max-width: 550px) {
+  .business .Tech .tech_card .business_card .fs {
+    font-size: 10px;
   }
 }
 
