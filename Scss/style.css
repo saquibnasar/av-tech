@@ -1611,6 +1611,32 @@ body {
   text-align: center;
 }
 
+@media (max-width: 992px) {
+  .technologies h2 {
+    font-size: 33px;
+  }
+}
+
+@media (max-width: 769px) {
+  .technologies h2 {
+    font-size: 24px;
+    line-height: 38px;
+  }
+}
+
+@media (max-width: 576px) {
+  .technologies h2 {
+    font-size: 18px;
+    line-height: 33px;
+  }
+}
+
+@media (max-width: 610px) {
+  .technologies h2 {
+    font-size: 16px;
+  }
+}
+
 .technologies .technologi {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
