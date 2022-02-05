@@ -56,14 +56,19 @@
     @content;
   }
 }
-@mixin footer {
+@mixin media3 {
   @media (max-width: 769px) {
     @content;
   }
 }
 
-@mixin technologi {
+@mixin media4 {
   @media (max-width: 576px) {
+    @content;
+  }
+}
+@mixin media5 {
+  @media (max-width: 430px) {
     @content;
   }
 }

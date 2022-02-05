@@ -11,6 +11,16 @@
     line-height: 54px;
     text-align: center;
     margin-top: 65px;
+    @include media {
+      font-size: 33px;
+    }
+    @include media3 {
+      font-size: 24px;
+    }
+    @include media4 {
+      font-size: 18px;
+      line-height: 33px;
+    }
   }
   .Tech {
     margin-top: 5rem;
@@ -21,6 +31,11 @@
         margin-left: auto;
       }
     }
+    .mart {
+      @include media3 {
+        margin-top: 0rem !important;
+      }
+    }
     .tech_card {
       background: #ffffff;
       border: 1px solid rgba(0, 0, 0, 0.25);
@@ -28,6 +43,7 @@
       border-radius: 15px;
       width: 478px;
       height: 630px;
+
       @include el {
         width: 463px;
       }
@@ -40,14 +56,29 @@
         margin: auto;
         margin-top: 3rem;
       }
+
       @include media2 {
         width: 100%;
       }
       @include tech_card {
         width: 468px;
       }
+      @include media3 {
+        width: 450px;
+        height: 575px;
+      }
+      @include media4 {
+        width: 350px;
+        height: 450px;
+      }
       .business_card {
         margin-top: 47px;
+        img {
+          width: unset;
+          @include media4 {
+            width: 25%;
+          }
+        }
 
         h3 {
           font-family: Poppins;
@@ -59,6 +90,14 @@
           margin-top: 37px;
           @include lg {
             font-size: 30px;
+          }
+          @include media3 {
+            font-size: 23px;
+            line-height: 38px;
+          }
+          @include media4 {
+            font-size: 18px;
+            line-height: 31px;
           }
         }
         p {
@@ -73,11 +112,25 @@
           @include lg {
             font-size: 16px;
           }
+          @include media3 {
+            font-size: 13px;
+            line-height: 30px;
+          }
+          @include media4 {
+            font-size: 11px;
+            line-height: 24px;
+          }
         }
         .fs {
           font-size: 16px;
-          @include lg {
-            font-size: 15px;
+
+          @include media3 {
+            font-size: 13px;
+            line-height: 30px;
+          }
+          @include media4 {
+            font-size: 11px;
+            line-height: 24px;
           }
         }
       }

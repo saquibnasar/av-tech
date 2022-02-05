@@ -57,35 +57,36 @@
                   >Home</a
                 >
               </li>
-              <li class="nav-item" onClick="serviceBar()">
-                <a class="nav-link position-relative" href="#">Services </a>
-                <ul class="navbar-nav servicebar">
-                  <li class="nav-item">
-                    <a
-                      class="nav-link"
-                      aria-current="page"
-                      href="./Software Development.html"
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDarkDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Services
+                </a>
+                <ul
+                  class="dropdown-menu dropdown-menu-dark"
+                  aria-labelledby="navbarDarkDropdownMenuLink"
+                >
+                  <li>
+                    <a class="dropdown-item" href="#"
                       >Software Development Team</a
                     >
                   </li>
-                  <li class="nav-item">
-                    <a
-                      class="nav-link"
-                      href="./Testing & Quality Assurance.html"
+                  <li>
+                    <a class="dropdown-item" href="#"
                       >Testing & Quality Assurance Team</a
                     >
                   </li>
-                  <li class="nav-item">
-                    <a
-                      class="nav-link"
-                      href="./Mobile Application Development.html"
-                      >Mobile App Development</a
-                    >
+                  <li>
+                    <a class="dropdown-item" href="#">Mobile App Development</a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./Development.html"
-                      >Website Development</a
-                    >
+                  <li>
+                    <a class="dropdown-item" href="#">Website Development</a>
                   </li>
                 </ul>
               </li>
@@ -111,9 +112,9 @@
                 <a href="#">Contact Us</a>
               </button>
             </div>
-            <div class="col-lg-6 col-md-12">
+            <div class="col-lg-6 col-md-12 d-flex">
               <img
-                class="header_img img-fluid"
+                class="header_img img-fluid ms-auto me-auto mb-5"
                 src="./Image/home/header_img.png"
                 alt=""
               />
@@ -180,13 +181,10 @@
         <div class="Tech">
           <div class="row">
             <div class="col-xl-5 col-lg-5">
-              <div class="tech_card text-center">
+              <div class="tech_card text-center mart">
                 <div class="business_card">
                   <img src="./Image/home/card_img1.png" alt="" />
-                  <h3>
-                    Software <br />
-                    Development Team
-                  </h3>
+                  <h3>Software Development Team</h3>
                   <p>
                     You might not be aware, but one of the most lucrative
                     business opportunities today is software development
@@ -273,7 +271,7 @@
                 and how to assess their capabilities.
               </p>
             </div>
-            <div class="col-lg-6 feature_img col-md-12">
+            <div class="col-lg-6 feature_img col-md-12 mb-3 d-flex">
               <img src="./Image/home/feature_img.png" alt="" />
             </div>
           </div>
@@ -403,7 +401,7 @@
                 <span class="icon">
                   <i class="fas fa-phone"></i>
                 </span>
-                +44(0) 790 328 1994
+                0044-753 809 1720
               </h5>
               <h4>© 2022 All Rights Reserved</h4>
             </div>
@@ -428,9 +426,11 @@
           </div>
           <div class="col-2">
             <div class="footer_part_3">
-              <span class="icon"><i class="fab fa-facebook-f"></i></span>
-              <span class="icon">
-                <i class="fab fa-linkedin-in"></i>
+              <span class="icon d-flex"
+                ><i class="fab fa-facebook-f m-auto"></i
+              ></span>
+              <span class="icon d-flex">
+                <i class="fab fa-linkedin-in m-auto"></i>
               </span>
             </div>
           </div>

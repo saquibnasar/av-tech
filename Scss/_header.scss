@@ -18,7 +18,15 @@
     }
     @include feature_row {
       font-size: 42px;
-      text-align: center;
+      line-height: 72px;
+    }
+    @include media3 {
+      font-size: 36px;
+      line-height: 52px;
+    }
+    @include media4 {
+      font-size: 36px;
+      line-height: 36px;
     }
   }
   .main_btn {
@@ -32,7 +40,13 @@
     margin-bottom: 2rem;
     @include media {
       margin: auto;
+      padding: 22px 52px;
     }
+    @include media3 {
+      margin: auto;
+      padding: 18px 40px;
+    }
+
     a {
       font-family: Roboto;
       font-style: normal;
@@ -42,6 +56,9 @@
       text-decoration: none;
       color: #170749;
       font-family: "Roboto", serif;
+      @include media3 {
+        font-size: 26px;
+      }
     }
   }
   .header_img {
@@ -49,6 +66,15 @@
     margin-top: 112px;
     @include media {
       width: 100%;
+      margin-top: 70px;
+    }
+    @include media3 {
+      width: 90%;
+      margin-top: 70px;
+    }
+    @include media4 {
+      width: 80%;
+      margin-top: 70px;
     }
   }
 }
