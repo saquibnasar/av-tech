@@ -1,0 +1,54 @@
+@import "./font";
+@import "./custom";
+@import "./media";
+.header {
+  .title {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 92px;
+    margin-top: 112px;
+    margin-bottom: 50px;
+    color: $white;
+    font-family: "Roboto Slab", serif;
+    @include media {
+      font-size: 57px;
+      text-align: center;
+    }
+    @include feature_row {
+      font-size: 42px;
+      text-align: center;
+    }
+  }
+  .main_btn {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px 60px;
+    background: $white;
+    border-radius: 7px;
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+    @include media {
+      margin: auto;
+    }
+    a {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 36px;
+      line-height: 42px;
+      text-decoration: none;
+      color: #170749;
+      font-family: "Roboto", serif;
+    }
+  }
+  .header_img {
+    width: 575px;
+    margin-top: 112px;
+    @include media {
+      width: 100%;
+    }
+  }
+}

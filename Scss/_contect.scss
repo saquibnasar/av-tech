@@ -1,0 +1,94 @@
+@import "./font";
+.contect {
+  .content_row {
+    margin-bottom: 100px;
+    .content_div {
+      @include media {
+        text-align: center;
+        margin-bottom: 2rem;
+      }
+      .contect_title {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 48px;
+        color: $white;
+        margin-top: 50px;
+      }
+      h3 {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 32px;
+        color: #9b9b9b;
+      }
+    }
+    .conent_box {
+      background: $white;
+      border-radius: 10px;
+      padding: 50px;
+      .contect_label {
+        font-family: Poppins;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #0e0f53;
+      }
+      .textarea_box {
+        height: 94%;
+        .contect_area {
+          height: 93%;
+          background: #f9f9fb;
+          border: 2px solid #dfdfe8;
+          border-radius: 5px;
+        }
+      }
+    }
+    .form_bottom {
+      h4 {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #0e0f53;
+      }
+      .contect_btn_secondary {
+        background: #f9f9fb;
+        border: 2px solid #dfdfe8;
+        box-sizing: border-box;
+        border-radius: 7px;
+        a {
+          font-family: Poppins;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 21px;
+          color: #0e0f53;
+          text-decoration: none;
+          padding: 26px 14px;
+        }
+      }
+    }
+    .btn_container {
+      text-align: center;
+      margin-top: 48px;
+      .contect_btn {
+        background: rgba(23, 7, 73, 0.85);
+        border-radius: 7px;
+        padding: 16px 36px;
+        a {
+          text-decoration: none;
+          font-family: Roboto;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 18px;
+          line-height: 21px;
+          color: #dddddd;
+        }
+      }
+    }
+  }
+}

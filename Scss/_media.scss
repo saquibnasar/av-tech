@@ -1,0 +1,84 @@
+@mixin feature_img {
+  @media (max-width: 1305px) {
+    @content;
+  }
+}
+@mixin feature_img2 {
+  @media (max-width: 1223px) {
+    @content;
+  }
+}
+@mixin el {
+  @media (max-width: 1223px) {
+    @content;
+  }
+}
+@mixin lg {
+  @media (max-width: 1200px) {
+    @content;
+  }
+}
+
+@mixin tech {
+  @media (max-width: 1200px) {
+    @content;
+  }
+}
+
+@mixin group3 {
+  @media (max-width: 1185px) {
+    @content;
+  }
+}
+@mixin feature {
+  @media (max-width: 1131px) {
+    @content;
+  }
+}
+
+@mixin media {
+  @media (max-width: 992px) {
+    @content;
+  }
+}
+@mixin media2 {
+  @media (min-width: 992px) and (max-width: 993px) {
+    @content;
+  }
+}
+@mixin feature_row {
+  @media (max-width: 828px) {
+    @content;
+  }
+}
+@mixin margin {
+  @media (max-width: 647px) {
+    @content;
+  }
+}
+@mixin footer {
+  @media (max-width: 769px) {
+    @content;
+  }
+}
+
+@mixin technologi {
+  @media (max-width: 576px) {
+    @content;
+  }
+}
+@mixin footer2 {
+  @media (max-width: 523px) {
+    @content;
+  }
+}
+@mixin group {
+  @media (max-width: 557px) {
+    @content;
+  }
+}
+@mixin tech_card {
+  @media (max-width: 509px) {
+    @content;
+  }
+}

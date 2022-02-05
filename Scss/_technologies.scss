@@ -1,0 +1,46 @@
+@import "./font";
+@import "./custom";
+@import "./media";
+.technologies {
+  margin-top: 5rem;
+  h2 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+  }
+  .technologi {
+    justify-content: center;
+    .technologi_card {
+      background: #ffffff;
+      box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.25);
+      border-radius: 5px;
+      padding: 36px;
+      width: 180px;
+      height: 180px;
+      @include technologi {
+        margin: auto;
+      }
+      .technologi_icon {
+        text-align: center;
+        margin-bottom: 10px;
+      }
+      .technologi_name {
+        h5 {
+          font-family: Poppins;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 15px;
+          line-height: 22px;
+          text-align: center;
+          color: #696969;
+        }
+        span {
+          opacity: 0;
+        }
+      }
+    }
+  }
+}
