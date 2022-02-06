@@ -41,6 +41,13 @@ header {
           }
           .dropdown-menu {
             border-radius: 10px;
+            .dropdown-item {
+              font-family: Open Sans;
+              font-style: normal;
+              font-weight: 600;
+              line-height: 27px;
+              color: #9b9b9b;
+            }
           }
         }
       }

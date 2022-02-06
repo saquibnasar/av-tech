@@ -322,6 +322,14 @@ header .navbar .collapse .navbar-nav .nav-item .dropdown-menu {
   border-radius: 10px;
 }
 
+header .navbar .collapse .navbar-nav .nav-item .dropdown-menu .dropdown-item {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 27px;
+  color: #9b9b9b;
+}
+
 body {
   background-color: #f8f8f8;
 }
