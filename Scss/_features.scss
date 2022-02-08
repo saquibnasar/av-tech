@@ -22,7 +22,7 @@
     margin-bottom: 47rem;
   }
   @include media5 {
-    margin-bottom: 52rem;
+    margin-bottom: 55rem;
   }
   .margin-1 {
     margin-top: -6rem;
@@ -55,7 +55,7 @@
         line-height: 38px;
       }
       @include media4 {
-        font-size: 21px;
+        font-size: 25px;
         line-height: 25px;
       }
     }
@@ -71,7 +71,7 @@
         text-align: center;
       }
       @include media4 {
-        font-size: 10px;
+        font-size: 14px;
         line-height: 20px;
       }
     }
@@ -105,9 +105,9 @@
         @include media {
           width: 60%;
         }
-        @include media4 {
-          width: 50%;
-        }
+        // @include media4 {
+        //   width: 50%;
+        // }
       }
       @include media {
         text-align: center;
@@ -149,7 +149,7 @@
         line-height: 15px;
       }
       @include media4 {
-        font-size: 9px;
+        font-size: 10px;
         line-height: 14px;
       }
     }
@@ -244,7 +244,7 @@
         margin-bottom: 1rem;
       }
       @include group3 {
-        width: 443px;
+        width: 471px;
       }
       @include media5 {
         margin-bottom: 2rem;
