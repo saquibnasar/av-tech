@@ -710,7 +710,7 @@ body {
 }
 
 .business .Tech .tech_card:hover {
-  border-top: 0.2rem solid #170749;
+  border: 0.2rem solid silver;
 }
 
 .business .Tech .tech_card:hover h3 {
