@@ -46,6 +46,7 @@
     @content;
   }
 }
+
 @mixin feature_row {
   @media (max-width: 828px) {
     @content;

@@ -59,17 +59,20 @@ footer {
         font-size: 18px;
       }
       @include media3 {
-        font-size: 12px;
+        font-size: 17px;
       }
     }
     h5 {
       font-family: Roboto;
       font-style: normal;
       font-weight: 500;
-      font-size: 13px;
+      font-size: 16px;
       line-height: 15px;
       margin-bottom: 27px;
       color: rgba(105, 105, 105, 0.75);
+      @include media3 {
+        font-size: 15px;
+      }
     }
   }
   .footer_bottom {

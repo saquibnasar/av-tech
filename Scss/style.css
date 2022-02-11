@@ -612,7 +612,7 @@ body {
   width: unset;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 610px) {
   .business .Tech .tech_card .business_card img {
     width: 25%;
   }
@@ -678,7 +678,7 @@ body {
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 610px) {
   .business .Tech .tech_card .business_card p {
     font-size: 13px;
     line-height: 24px;
@@ -706,6 +706,7 @@ body {
 @media (max-width: 610px) {
   .business .Tech .tech_card .business_card .fs {
     font-size: 10px;
+    line-height: 24px;
   }
 }
 
@@ -1235,7 +1236,7 @@ footer .footer_part_2 h4 {
 
 @media (max-width: 769px) {
   footer .footer_part_2 h4 {
-    font-size: 12px;
+    font-size: 17px;
   }
 }
 
@@ -1243,10 +1244,16 @@ footer .footer_part_2 h5 {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
-  font-size: 13px;
+  font-size: 16px;
   line-height: 15px;
   margin-bottom: 27px;
   color: rgba(105, 105, 105, 0.75);
+}
+
+@media (max-width: 769px) {
+  footer .footer_part_2 h5 {
+    font-size: 15px;
+  }
 }
 
 footer .footer_bottom .footer_div {

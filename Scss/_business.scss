@@ -80,7 +80,7 @@
         margin-top: 47px;
         img {
           width: unset;
-          @include media4 {
+          @include media5 {
             width: 25%;
           }
         }
@@ -124,7 +124,7 @@
             font-size: 13px;
             line-height: 30px;
           }
-          @include media4 {
+          @include media5 {
             font-size: 13px;
             line-height: 24px;
           }
@@ -142,6 +142,7 @@
           }
           @include media5 {
             font-size: 10px;
+            line-height: 24px;
           }
         }
       }
