@@ -66,6 +66,18 @@ body {
   height: 96vh;
 }
 
+.modal_ul {
+  padding: 0;
+}
+
+.modal_ul li {
+  list-style: none;
+}
+
+.model_list li {
+  list-style: none;
+}
+
 .header .title {
   font-family: Roboto Slab;
   font-style: normal;
@@ -244,6 +256,18 @@ body {
   height: 96vh;
 }
 
+.modal_ul {
+  padding: 0;
+}
+
+.modal_ul li {
+  list-style: none;
+}
+
+.model_list li {
+  list-style: none;
+}
+
 body {
   background-color: #f8f8f8;
 }
@@ -286,6 +310,18 @@ body {
 
 .custom_height {
   height: 96vh;
+}
+
+.modal_ul {
+  padding: 0;
+}
+
+.modal_ul li {
+  list-style: none;
+}
+
+.model_list li {
+  list-style: none;
 }
 
 * {
@@ -384,6 +420,18 @@ body {
 
 .custom_height {
   height: 96vh;
+}
+
+.modal_ul {
+  padding: 0;
+}
+
+.modal_ul li {
+  list-style: none;
+}
+
+.model_list li {
+  list-style: none;
 }
 
 .para {
@@ -506,6 +554,18 @@ body {
 
 .custom_height {
   height: 96vh;
+}
+
+.modal_ul {
+  padding: 0;
+}
+
+.modal_ul li {
+  list-style: none;
+}
+
+.model_list li {
+  list-style: none;
 }
 
 .business {
@@ -784,6 +844,18 @@ body {
 
 .custom_height {
   height: 96vh;
+}
+
+.modal_ul {
+  padding: 0;
+}
+
+.modal_ul li {
+  list-style: none;
+}
+
+.model_list li {
+  list-style: none;
 }
 
 .features {
@@ -1280,6 +1352,12 @@ footer .footer_part_2 h5 {
   }
 }
 
+@media (min-width: 992px) and (max-width: 1035px) {
+  footer .footer_part_2 .Privacy {
+    font-size: 13px;
+  }
+}
+
 footer .footer_bottom .footer_div {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1340,11 +1418,11 @@ footer .footer_bottom .footer_div .footer_bottom_part2 .icon .fab {
   }
 }
 
-.contect .content_row .content_div .contect_title {
+.contect .content_row .content_div .contact_title {
   font-family: Poppins;
   font-style: normal;
   font-weight: 600;
-  font-size: 32px;
+  font-size: 19px;
   line-height: 48px;
   color: #fff;
   margin-top: 50px;
@@ -1444,11 +1522,11 @@ footer .footer_bottom .footer_div .footer_bottom_part2 .icon .fab {
   }
 }
 
-.contect .content_row .content_div .contect_title {
+.contect .content_row .content_div .contact_title {
   font-family: Poppins;
   font-style: normal;
   font-weight: 600;
-  font-size: 32px;
+  font-size: 19px;
   line-height: 48px;
   color: #fff;
   margin-top: 50px;
@@ -1579,6 +1657,18 @@ body {
 
 .custom_height {
   height: 96vh;
+}
+
+.modal_ul {
+  padding: 0;
+}
+
+.modal_ul li {
+  list-style: none;
+}
+
+.model_list li {
+  list-style: none;
 }
 
 .software h1 {
@@ -1640,6 +1730,18 @@ body {
 
 .custom_height {
   height: 96vh;
+}
+
+.modal_ul {
+  padding: 0;
+}
+
+.modal_ul li {
+  list-style: none;
+}
+
+.model_list li {
+  list-style: none;
 }
 
 .technologies {
@@ -1765,6 +1867,18 @@ body {
 
 .custom_height {
   height: 96vh;
+}
+
+.modal_ul {
+  padding: 0;
+}
+
+.modal_ul li {
+  list-style: none;
+}
+
+.model_list li {
+  list-style: none;
 }
 
 .servicebar {

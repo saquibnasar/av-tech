@@ -74,6 +74,11 @@ footer {
         font-size: 15px;
       }
     }
+    .Privacy {
+      @include modal {
+        font-size: 13px;
+      }
+    }
   }
   .footer_bottom {
     .footer_div {

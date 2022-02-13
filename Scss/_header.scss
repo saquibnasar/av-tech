@@ -74,6 +74,7 @@
   .header_img {
     width: 575px;
     margin-top: 112px;
+
     @include media {
       width: 100%;
       margin-top: 70px;
