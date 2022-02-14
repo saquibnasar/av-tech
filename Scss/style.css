@@ -131,11 +131,11 @@ body {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   padding: 24px 60px;
   background: #fff;
   border-radius: 7px;
@@ -326,7 +326,7 @@ body {
 
 * {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-family: "Open Sans", sans-serif;
@@ -625,7 +625,7 @@ body {
   background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.25);
   -webkit-box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.25);
-  box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.25);
   border-radius: 15px;
   width: 478px;
   height: 630px;
@@ -1027,7 +1027,7 @@ body {
 .features .single_feature {
   background: #fff;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 24px 0px 24px 24px;
   position: relative;
   margin-top: 1.875rem;
@@ -1301,16 +1301,16 @@ footer .footer_box {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 @media (max-width: 769px) {
   footer .footer_box {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 
@@ -1363,16 +1363,16 @@ footer .footer_bottom .footer_div {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 @media (max-width: 769px) {
   footer .footer_bottom .footer_div {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 
@@ -1392,7 +1392,7 @@ footer .footer_bottom .footer_div .footer_bottom_part2 .icon {
   background: #ffffff;
   border: 1px solid #9b9b9b;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   border-radius: 50%;
   margin-right: 10px;
 }
@@ -1475,7 +1475,7 @@ footer .footer_bottom .footer_div .footer_bottom_part2 .icon .fab {
   background: #f9f9fb;
   border: 2px solid #dfdfe8;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   border-radius: 7px;
 }
 
@@ -1579,7 +1579,7 @@ footer .footer_bottom .footer_div .footer_bottom_part2 .icon .fab {
   background: #f9f9fb;
   border: 2px solid #dfdfe8;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   border-radius: 7px;
 }
 
@@ -1685,7 +1685,7 @@ body {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 body {
@@ -1786,14 +1786,14 @@ body {
 
 .technologies .technologi {
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .technologies .technologi .technologi_card {
   background: #ffffff;
   -webkit-box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.25);
-  box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.25);
   border-radius: 5px;
   padding: 36px;
   width: 180px;
@@ -1892,8 +1892,8 @@ body {
   display: flex;
   -webkit-box-orient: vertical !important;
   -webkit-box-direction: normal !important;
-  -ms-flex-direction: column !important;
-  flex-direction: column !important;
+      -ms-flex-direction: column !important;
+          flex-direction: column !important;
 }
 
 .servicebar .nav-item a {
