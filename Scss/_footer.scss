@@ -62,7 +62,8 @@ footer {
         font-size: 17px;
       }
     }
-    h5 {
+    a {
+      text-decoration: none;
       font-family: Roboto;
       font-style: normal;
       font-weight: 500;
@@ -75,6 +76,7 @@ footer {
       }
     }
     .Privacy {
+      width: 145px;
       @include modal {
         font-size: 13px;
       }
