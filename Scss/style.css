@@ -605,6 +605,10 @@ body {
   margin-top: 5rem;
 }
 
+.business .Tech a {
+  color: unset;
+}
+
 .business .Tech .ms {
   margin-left: auto;
 }
